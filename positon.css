@@ -1,0 +1,44 @@
+.purple{ 
+    width:100%;
+    height:70px;
+    background-color:purple;
+    position:static;
+    top:0;
+    display:flex;
+    justify-content:flex-start;
+    padding:0;
+  }
+  ul li{
+   list-style:none;
+    width:100px;
+    height:30px;
+    background-color:cyan;
+    margin-left:10px;
+    margin-top:20px;
+  }
+  .grow{
+    display:flex;
+  padding:0;
+  }
+  .yellow{
+    background-color:yellow;
+    flex-grow:5;
+    height:500px;
+    margin:0;
+    
+  }
+  .lime{
+    background-color:lime;
+    flex-grow:2;
+      height:500px;
+    margin:0;
+  }
+footer{
+  background-color:grey;
+  height:80px;
+  
+}
+.selectwidth{
+  margin-left:100px;
+    margin-right:100px;
+}
