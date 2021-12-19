@@ -1,0 +1,45 @@
+.wholedoc{
+    width:40rem;
+    height:60rem;
+    background:white;
+  }
+  header{
+    height:8rem;
+    background:aqua;
+  }
+  .siblings{
+    height:52rem;
+    display:flex;
+  }
+  .leftside{
+  flex-grow:1;
+    background:orange;
+    height:52rem;
+    
+  }
+  #red{
+   flex-grow:3;
+    background:red;
+    height:52rem;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  .fix{
+    width:50px;
+    height:50px;
+    background:black;
+    position:relative ;
+    top:48rem;
+    right:80px;
+  
+  }
+  .rightside{
+    flex-grow:1;
+    background:purple;
+    height:52rem;
+  }
+  
+  footer{
+    height:8rem;
+    background:blue;
+  }
